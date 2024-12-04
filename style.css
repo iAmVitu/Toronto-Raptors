@@ -200,6 +200,14 @@ body, html {
     width: 80%;
     margin-bottom: 1%;
 }
+@media screen and (min-width: 1200px) {
+    #cabecalho { 
+        height: 1000px;
+    } 
+    #apresentacao { 
+        font-size: 1.5em;
+    } 
+}
 @media screen and (max-width: 800px) {
     #cabecalho{
         background-image: url("imagens/imgcabecalho-media.jpg");
